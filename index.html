@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UV</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/uv-style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <main>
+        <section id="uv-section">
+            <div id="uv-base">
+                <div class="uv-base-wrapper uv-background"></div>
+                <div id="uv-element" class="uv-base-wrapper"></div>
+                <div id="uv-data" class="uv-base-wrapper">
+                    <div id="temperature"></div>
+                    <div id="humidity"></div>
+                    <div id="uv-index"></div>
+                </div>
+                <div id="uv-text-container">
+                    <div id="uv-text-section">
+                        <div id="uv-text-wrapper">
+                            <p id="uv-text-top">Nizak</p>
+                            <p id="uv-text-bottom">Rizik od UV zračenja</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="content-section">
+            <div id="content-base" class="content-1" data="0">
+                <nav id="menu">
+                    <ul>
+                        <li class="active"><a href="#">O SUNČEVOM ZRAČENJU</a></li>
+                        <li><a href="#">MERE ZAŠTITE OD SUNCA</a></li>
+                        <li><a href="#">PRAVILNO KORIŠĆENJE<br />KREME ZA SUNČANJE</a></li>
+                        <li><a href="#">OSETLJIVA POPULACIJA I<br />ZAŠTITA OD SUNCA</a></li>
+                        <li><a href="#">RIZICI OD PREKOMERNOG IZLAGANJA SUNCU</a></li>
+                        <li><a href="#">ZNACI I SIMPTOMI<br />RAKA KOŽE</a></li>
+                    </ul>
+                </nav>
+                <div id="content-wrapper" draggable="true">
+                    <div class="content-slider" id="main-content">
+                        <div class="wrapper">
+                            <div id="content-1" class="slider-1">
+                                <h2>NIZAK RIZIK OD<br />OŠTEĆENJA KOŽE USLED NEZAŠTIĆENOG<br />IZLAGANJA SUNCU.</h2>
+                                <h4>UPOZORENJE:</h4>
+                                <p>Iako je rizik nizak, produženo izlaganje UV zračenju i dalje može izazvati oštećenje
+                                    veoma osetljive kože.</p>
+                                <h4>PREPORUKA ZA ZAŠTITU:</h4>
+                                <p>Savetujemo oprez.</p>
+                            </div>
+                            <div id="content-3" class="slider-1">
+                                <h2>UMEREN RIZIK OD<br />OŠTEĆENJA KOŽE USLED NEZAŠTIĆENOG<br />IZLAGANJA SUNCU.</h2>
+                                <h4>UPOZORENJE:</h4>
+                                <p>Ljudi sa svetlom kožom, pegama ili porodičnom istorijom raka kože mogu i dalje biti
+                                    izloženi riziku od oštećenja kože i trebalo bi da preduzmu dodatne mere opreza.</p>
+                                <h4>PREPORUKA ZA ZAŠTITU:</h4>
+                                <p>Pored nošenja zaštitne odeće i nanošenja kreme za sunčanje, pokušajte da ostanete u senci
+                                    tokom najvećeg broja sunčanih sati (10-16 časova).</p>
+                            </div>
+                            <div id="content-6" class="slider-1">
+                                <h2>VISOK RIZIK OD<br />OŠTEĆENJA KOŽE USLED NEZAŠTIĆENOG<br />IZLAGANJA SUNCU.</h2>
+                                <h4>UPOZORENJE:</h4>
+                                <p>Čak i nekoliko minuta nezaštićenog izlaganja može izazvati oštećenje kože i povećati
+                                    rizik od raka kože.</p>
+                                <h4>PREPORUKA ZA ZAŠTITU:</h4>
+                                <p>Nosite zaštitnu odeću koja pokriva što je moguće više kože, uključujući duge rukave i
+                                    pantalone. Nanesite kremu za sunčanje SPF 30 ili više, svaka dva sata i izbegavajte
+                                    aktivnosti na otvorenom tokom najvećeg broja sunčanih sati.</p>
+                            </div>
+                            <div id="content-8" class="slider-1">
+                                <h2>VEOMA VISOK RIZIK OD<br />OŠTEĆENJA KOŽE USLED NEZAŠTIĆENOG<br />IZLAGANJA SUNCU.</h2>
+                                <h4>UPOZORENJE:</h4>
+                                <p>UV zračenje je izuzetno intenzivno i može izazvati ozbiljna oštećenja kože, čak i za
+                                    kratko vreme.</p>
+                                <h4>PREPORUKA ZA ZAŠTITU:</h4>
+                                <p>Ako je moguće, ostanite u zatvorenom prostoru tokom najvećeg broja sunčanih sati. Ako
+                                    morate da budete napolju, nosite zaštitnu odeću, šešir i naočare za sunce i koristite
+                                    kremu za sunčanje širokog spektra sa SPF 50.</p>
+                            </div>
+                            <div id="content-11" class="slider-1">
+                                <h2>EKSTREMNO VISOK RIZIK OD<br />OŠTEĆENJA KOŽE USLED NEZAŠTIĆENOG<br />IZLAGANJA SUNCU.
+                                </h2>
+                                <h4>UPOZORENJE:</h4>
+                                <p>Ovaj nivo UV zračenja je izuzetno opasan i može izazvati oštećenje kože i opekotine od
+                                    sunca za samo nekoliko minuta izlaganja.</p>
+                                <h4>PREPORUKA ZA ZAŠTITU:</h4>
+                                <p>Izbegavajte aktivnosti na otvorenom tokom najvećeg broja sunčanih sati i tražite senku
+                                    kad god je to moguće.</p>
+                                <p>Ako morate da budete napolju, nosite zaštitnu odeću, šešir sa širokim obodom i naočare za
+                                    sunce i koristite kremu za sunčanje širokog spektra sa SPF 50 ili više.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="content-slider">
+                        <ul>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td><img src="images/slide2/img-1.png" class="img-20" /></td>
+                                        <td>Koristite zaštitne kreme sa visokim faktorom zaštite od sunca (SPF). Redovno
+                                            nanosite kremu sa SPF 30 ili više na izložene delove kože, poput lica,
+                                            vrata, ruku i nogu. Nanesite je 15-30 minuta pre izlaska na sunce i ponovo
+                                            je nanosite na svaka dva sata ili češće ako se znojite ili ulazite u vodu.
+                                        </td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td><img src="images/slide2/img-2.png" class="img-20" /></td>
+                                        <td>Koristite sunčane naočare. Naočare sa 100% UV zaštitom pomažu u zaštiti
+                                            očiju od štetnog UV zračenja. Birajte modele koji blokiraju UVA i UVB zrake
+                                            kako biste maksimalno smanjili rizik od oštećenja očiju.</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td><img src="images/slide2/img-3.png" class="img-20" /></td>
+                                        <td>Budite posebno oprezni na visokim nadmorskim visinama i na vodi. UV zračenje
+                                            se povećava sa povećanjem nadmorske visine, pa budite posebno oprezni kada
+                                            se nalazite na planinama. Takođe, refleksija sunčevih zraka od vode pojačava
+                                            izloženost.</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td><img src="images/slide2/img-4.png" class="img-20" /></td>
+                                        <td>Nosite zaštitnu odeću. Pokrijte što više kože laganim, ali neprovidnim
+                                            odevnim predmetima, poput košulje s dugim rukavima, pantalona i šešira sa
+                                            širokim obodom. Takođe, možete potražiti odeću koja već ima zaštitu od UV
+                                            zračenja.</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td><img src="images/slide2/img-5.png" class="img-20" /></td>
+                                        <td>Izbegavate izlaganje direktnim sunčevim zracima u periodu od 10 do 16
+                                            časova, kada je UV zračenje najjače. Ako morate biti napolju u tom periodu,
+                                            potražite hlad ili koristite suncobran kako biste se zaštitili.</td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td><img src="images/slide2/img-6.png" class="img-20" /></td>
+                                        <td>Redovno proveravajte kožu. Samopregledajte kožu kako biste uočili bilo kakve
+                                            promene, kao što su novi mladeži ili promene u postojećim mladežima. Ako
+                                            primetite nešto neobično, kao što su mladeži koji menjaju boju, oblik ili
+                                            veličinu, konsultujte se sa dermatologom.</td>
+                                    </tr>
+                                </table>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="content-slider">
+                        <div style="display: flex;">
+                            <div class="slide-1-3">
+                                <h2 style="font-size: 0.8em;"><strong>NANESITE DOVOLJNO<br/>PREPARATA ZA ZAŠTITU OD SUNCA</strong><br/>
+                                    <span style="font-weight: 300;">I PONAVLJAJTE NANOŠENJE U<br>PRAVILNIM INTERVALIMA.</span></h2>
+                                <img src="images/slide3/imd-1.png" />
+                            </div>
+                            <div class="slide-2-3">
+                                <ul>
+                                    <li>
+                                        <h3>ODRASLI - LOSIONI, FLUIDI, KREME:</h3>
+                                        <p style="text-align: left;">Nanesite na svako od označenih područja tela (1-11) preparat za zaštitu od sunca u količini koja odgovara „traci“ preparata koju biste istisnuli od korena dlana do vrha srednjeg prsta.</p>
+                                    </li>
+                                    
+                                    <li>
+                                        <h3>ODRASLI - SPREJ ZA ZAŠTITU OD SUNCA:</h3>
+                                        <p style="text-align: left;">Sprej za zaštitu od sunca naprskajte po 15 puta na svako od označenih područja tela (1-11).</p>
+                                    </li>
+                                    
+                                    <li>
+                                        <h3>DECA DO 6 GODINA STAROSTI - LOSION:</h3>
+                                        <p style="text-align: left;">Nanesite na svako od označenih područja tela (1-11) preparat za zaštitu od sunca u količini koja odgovara „traci“ preparata koju biste istisnuli duž srednjeg prsta i polovine dužine kažiprsta deteta.<br/>Za područje 1 (lice i vrat) naneti dvostruku količinu preparata.</p>
+                                    </li>
+                                    
+                                    <li>
+                                        <h3>DECA UZRASTA 6-10 GODINA - LOSION:</h3>
+                                        <p style="text-align: left;">Nanesite na svako od označenih područja tela (1-11) preparat za zaštitu od sunca u količini koja odgovara „traci“ preparata koju biste istisnuli duž srednjeg prsta i kažiprsta deteta.<br/>Za decu stariju od 10 godina važe ista pravila kao i za odrasle.</p>
+                                    </li>
+                                    
+                                    <li>
+                                        <h3>DECA - SPREJ ZA ZAŠTITU OD SUNCA:</h3>
+                                        <p style="text-align: left;"><strong>Deca mlađa od 6 godina:</strong><br/>
+                                        naprskajte po 5 puta svako područje tela obeleženo 1-11;<br/>
+                                        <strong>Deca od 6 do 10 godina:</strong><br/>
+                                        naprskajte po 7-10 puta svako područje tela obeleženo 1-11;<br/>
+                                        <strong>Deca starija od 10 godina:</strong><br/>
+                                        naprskajte po 10-15 puta svako područje tela obeleženo 1-11.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-slider">
+                        <h2>VAŽNI SAVETI ZA ZAŠTITU OSETLJIVE POPULACIJE<br/>OD ŠTETNOG UV ZRAČENJA</h2>
+                        <div class="slider-3-3">
+                            <ul>
+                                <li>
+                                    <h3>BEBE I DECA</h3>
+                                    <p style="text-align: left;">Bebe mlađe od 6 meseci ne bi trebalo direktno izlagati sunčevim zracima. Deca svih uzrasta treba da budu zaštićena šeširima, odećom sa dugim rukavima i nogavicama, kao i kvalitetnim kremama za zaštitu od sunca sa visokim SPF faktorom.</p>
+                                </li>
+                                <li>
+                                    <h3>OSOBE SA KOŽNIM OBOLJENJIMA</h3>
+                                    <p style="text-align: left;">Osobe sa kožnim oboljenjima, poput ekcema ili psorijaze, mogu biti osetljivije na sunce. Preporučuje se konsultacija sa dermatologom kako bi se odredile posebne mere zaštite, koje uključuju korišćenje krema za zaštitu od sunca prilagođenih njihovim potrebama.</p>
+                                </li>
+                                <li>
+                                    <h3>OSOBE SA OSETLJIVIM OČIMA</h3>
+                                    <p style="text-align: left;">Osobe sa osetljivim očima ili očnim stanjima, kao što su katarakte ili retinalne bolesti, treba da nose kvalitetne sunčane naočare sa 100% UV zaštitom kako bi zaštitile svoje oči od štetnih sunčevih zraka.</p>
+                                </li>
+                                <li>
+                                    <h3>STARIJE OSOBE</h3>
+                                    <p style="text-align: left;">Stariji ljudi imaju povećan rizik od oštećenja kože usled dugotrajnog izlaganja suncu. Preporučuje se nošenje zaštitne odeće i šešira, korišćenje krema za zaštitu od sunca sa visokim SPF faktorom, kao i izbegavanje sunca u periodu od 10 do 16 časova.</p>
+                                </li>
+                                <li>
+                                    <h3>OSOBE SA SVETLOM KOŽOM</h3>
+                                    <p style="text-align: left;">Osobe sa svetlom kožom, sedom ili bez kose su takođe osetljivije na UV zračenje. Oni posebno treba da obrate pažnju na zaštitu od sunca i da koriste zaštitnu odeću, šešire i kreme za sunčanje.</p>
+                                </li>
+                                <li>
+                                    <h3>OSOBE SA SPECIFIČNIM MEDICINSKIM STANJIMA</h3>
+                                    <p style="text-align: left;">Osobe sa specifičnim medicinskim stanjima treba da se da se posavetuju sa svojim lekarom ili dermatologom kako bi dobile posebne smernice za zaštitu od sunca i odabir proizvoda za negu kože koji su pogodni za njihovu situaciju.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-slider">
+                        <h2>PREKOMERNO IZLAGANJE SUNCU MOŽE DONETI<br/>BROJNE RIZIKE PO ZDRAVLJE</h2>
+                        <div class="slider-3-3">
+                            <ul>
+                                <li>
+                                    <h3>OPEKOTINE OD SUNCA</h3>
+                                    <p style="text-align: left;">Intenzivno izlaganje sunčevim zracima može dovesti do opekotina na koži, što uzrokuje crvenilo, bol i ljuštenje. Opekotine od sunca povećavaju rizik od razvoja raka kože.<p>
+                                </li>
+                                <li>
+                                    <h3>DEHIDRATACIJA I TOPLOTNI UDAR</h3>
+                                    <p style="text-align: left;">Sunce može uzrokovati dehidrataciju i povećati rizik od toplotnog udara, što može biti ozbiljno po zdravlje, posebno kod starijih osoba i male dece.<p>
+                                </li>
+                                <li>
+                                    <h3>STARENJE KOŽE</h3>
+                                    <p style="text-align: left;">UV zraci sunca mogu ubrzati proces starenja kože. Prekomerno izlaganje može dovesti do pojave bora, gubitka elastičnosti, tamnih fleka i drugih znakova prevremenog starenja.<p>
+                                </li>
+                                <li>
+                                    <h3>OŠTEĆENJE OČIJU</h3>
+                                    <p style="text-align: left;">UV zraci mogu uzrokovati oštećenje očiju, uključujući konjuktivitis (zapaljenje očne konjuktive), fotokeratitis ("snežno slepilo") i povećan rizik od katarakte i degeneracije makule.<p>
+                                </li>
+                                <li>
+                                    <h3>RAK KOŽE</h3>
+                                    <p style="text-align: left;">Dugotrajno izlaganje sunčevim zracima bez zaštite može povećati rizik od razvoja različitih vrsta raka kože, uključujući karcinom bazalnih ćelija, karcinom pločastih ćelija i melanom.</p>
+                                </li>                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-slider">
+                        <h2>RAK KOŽE MOŽE SE MANIFESTOVATI KROZ<br/>RAZLIČITE ZNAKE I SIMPTOME</h2>
+                        <div class="slider-3-3">
+                            <ul>
+                                <li>
+                                    <h3>PROMENE NA KOŽI</h3>
+                                    <p style="text-align: left;">Promene u boji, veličini, obliku ili teksturi kože mogu biti znaci raka kože. Ovo uključuje pojavu novih mladeža ili promene u postojećim mladežima, kao i prisustvo čvorića, krasta, rana koje ne zarastaju ili površina koje krvare.</p>
+                                </li>
+                                <li>
+                                    <h3>NEOBIČAN RAST ILI ŠIRENJE</h3>
+                                    <p style="text-align: left;">Rak kože može izazvati nekontrolisani rast tkiva, što se može manifestovati kao čvorići ili ispupčenja na koži. Ovi tumori se mogu povećavati tokom vremena i imati neravne ili nepravilne ivice.</p>
+                                </li>
+                                <li>
+                                    <h3>SVRAB, PECKANJE ILI BOL</h3>
+                                    <p style="text-align: left;">Rak kože može uzrokovati svrab, peckanje ili bol na zahvaćenom području kože. Ovi simptomi mogu biti prisutni i pre nego što se vizuelno primete promene na koži.</p>
+                                </li>
+                                <li>
+                                    <h3>ULCERACIJA ILI OTVORENE RANE</h3>
+                                    <p style="text-align: left;">Uznapredovali stadijumi raka kože mogu rezultirati ulceracijom ili formiranjem otvorenih rana na koži. Ove rane mogu biti bolne i nezarastajuće.</p>
+                                </li>
+                                <li>
+                                    <h3>PROMENE NA NOKTIMA</h3>
+                                    <p style="text-align: left;">Rak kože se takođe može manifestovati promenama na noktima, poput promene boje, neravnina, lomljenja noktiju ili promene oblika nokta.</p>
+                                
+                                    <p style="text-align: left;">Navedeni simptomi nisu specifični samo za rak kože i mogu biti povezani i sa drugim stanjima kože. Ukoliko primetite bilo kakve promene koje izgledaju neobično ili se ne povlače, preporučuje se da se posavetujete sa dermatologom radi pregleda i adekvatne dijagnoze. Rano otkrivanje i tretman raka kože povećavaju šanse za uspešno izlečenje.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/js-script.js" async defer></script>
+</body>
+
+</html>
